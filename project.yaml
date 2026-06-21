@@ -1,0 +1,71 @@
+# .project metadata for Dapr
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "dapr"
+name: "Dapr"
+description: "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration."
+type: "project"
+project_lead: "yaron2" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#dapr"
+#     primary: true
+
+maturity_log:
+  - phase: "graduated"
+    date: "2021-11-09T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/228" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/dapr/dapr"
+
+website: "https://dapr.io"
+
+artwork: "https://landscape.cncf.io/logos/dapr.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/dapr/dapr/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "dapr/dapr"
+
+social:
+  twitter: "https://twitter.com/DaprDev"
+
+security:
+  policy:
+    path: "https://github.com/dapr/dapr/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/dapr/dapr/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/dapr/dapr/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/dapr/dapr/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/dapr/dapr/blob/master/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Application Definition & Image Build"
+
